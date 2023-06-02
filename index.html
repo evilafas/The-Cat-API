@@ -4,55 +4,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <title>Cat API</title>
   </head>
-  <style>
-    @import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
-    body {
-      font-family: "Silkscreen", cursive;
-      background-color: aqua;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
 
-    img {
-      width: 350px;
-      height: 350px;
-    }
-
-    .div {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      color: yellow;
-      text-shadow: 1px 1px 1px black;
-      width: 500px;
-      text-align: center;
-    }
-
-    .catImg {
-      margin-bottom: 20px;
-      border-radius: 20%;
-    }
-
-    .catBtn{
-        margin-bottom: 20px;
-        width: 70%;
-        height: 50px;
-        border-radius: 20px;
-        background-color: yellow;
-        font-family: "Silkscreen", cursive;
-        font-size: x-large;
-    }
-  </style>
   <body>
     <div class="div">
       <h1>Generador de Gatitos Aleatorios</h1>
+      <span
+        ><i
+          class="fa-sharp fa-solid fa-heart fa-beat"
+          style="color: #ff1900"
+          id="guardarFav"
+        ></i
+      ></span>
       <img alt="gatitos" class="catImg" />
-      <input type="button" class="catBtn" value="GENERAR" onclick="generar()"/>
+      <input type="button" class="catBtn" value="GENERAR" onclick="generar()" />
     </div>
+    <h1>MICHIS FAVORITOS</h1>
+    <div class="favorites"></div>
 
     <script src="index.js"></script>
   </body>
