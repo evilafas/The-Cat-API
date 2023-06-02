@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+body {
+  font-family: "Silkscreen", cursive;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+img {
+  width: 350px;
+  height: 350px;
+}
+
+.div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: yellow;
+  text-shadow: 1px 1px 1px black;
+  width: 500px;
+  text-align: center;
+}
+
+.catImg {
+  margin-bottom: 20px;
+  border-radius: 20%;
+  -webkit-box-shadow: 9px 8px 15px -6px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 9px 8px 15px -6px rgba(0, 0, 0, 1);
+  box-shadow: 9px 8px 15px -6px rgba(0, 0, 0, 1);
+}
+
+.catBtn {
+  margin-bottom: 20px;
+  width: 70%;
+  height: 50px;
+  border-radius: 20px;
+  background-color: yellow;
+  font-family: "Silkscreen", cursive;
+  font-size: x-large;
+  cursor: pointer;
+}
+
+span i {
+  position: relative;
+  left: 150px;
+  top: 50px;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.favorites {
+  width: 100%;
+  height: auto;
+  background-color: aqua;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+#imgFav {
+  margin: 50px;
+  width: 200px;
+  height: 300px;
+  border: 2px solid white;
+}
+
+.favCard img{
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px black;
+}
+
+.favCard i{
+    position: relative;
+    font-size: 50px;
+    cursor: pointer;
+    top: -280px;
+    left: -90px;
+}
